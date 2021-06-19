@@ -1,9 +1,9 @@
 # Typescript 
 
 # Table of Contents
-1. [Installing TS] (#installing-TS)
-2. [Compiling TS] (#compiling-TS)
-3. [Types Basics] (#types-basics)
+1. [Installing TS](#installing-TS)
+2. [Compiling TS](#compiling-TS)
+3. [Types Basics](#types-basics)
 
 ## Installing TS <a name="installing-TS"></a>
 * Inside the terminal do `npm install -g typescript`
