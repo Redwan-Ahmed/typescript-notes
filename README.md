@@ -1,4 +1,4 @@
-<h1 style="text-align: center; font-size: 2.5em;">TypeScript Notes</h1>
+<h1 align="center" style="font-size: 2.5em;">TypeScript Notes</h1>
 
 # Table of Contents
 1. [Installing TS](#installing-TS)
