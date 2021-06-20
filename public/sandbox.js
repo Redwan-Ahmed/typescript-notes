@@ -1,3 +1,4 @@
+"use strict";
 /**
  * TS Types (Basic)
  * EXAMPLE: firstName is now assigned to be a string, we can change the value but not the type.
@@ -35,23 +36,23 @@ var onlyStringArray = ['string1', 'string2', 'string3'];
 onlyStringArray.push('newString');
 // 1.1. creating empty array type string (Explicit Types)
 var emptyStringArr;
-emptyStringArr.push('only strings allowed');
+//emptyStringArr.push('only strings allowed')
 // 2. creating an Array with just type numbers
 var onlyNumbersArray = [1, 2, 3, 4];
 // we can only push numbers inside the array
 onlyNumbersArray.push(5);
 // 2.1. creating empty array type string (Explicit Types)
 var emptyNumArr;
-emptyNumArr.push(2, 10);
+//emptyNumArr.push(2, 10)
 // 3. creating a mixed type array
 var mixedArray = ['string', 1];
 // we can push both number types or string types
 mixedArray.push('string 2', 2);
 // 3.1. creating empty mixed type array (Union Types Array)
 var emptyMixedArr;
-emptyMixedArr.push('only strings allowed', 1);
-// 4. creating any type of array
-var anyArray;
+//emptyMixedArr.push('only strings allowed', 1)
+// 4. creating any type of array (DYNAMIC Type)
+var anyArray = [];
 anyArray.push(1, false, 'string');
 /** Objects:
  * With objects once we create an object, we cannot add new properties.

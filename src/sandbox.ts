@@ -46,7 +46,7 @@ onlyStringArray.push('newString')
 
 // 1.1. creating empty array type string (Explicit Types)
 let emptyStringArr: string[]
-emptyStringArr.push('only strings allowed')
+//emptyStringArr.push('only strings allowed')
 
 // 2. creating an Array with just type numbers
 let onlyNumbersArray = [1, 2, 3, 4]
@@ -55,7 +55,7 @@ onlyNumbersArray.push(5)
 
 // 2.1. creating empty array type string (Explicit Types)
 let emptyNumArr: number[]
-emptyNumArr.push(2, 10)
+//emptyNumArr.push(2, 10)
 
 // 3. creating a mixed type array
 let mixedArray = ['string', 1]
@@ -64,10 +64,10 @@ mixedArray.push('string 2', 2)
 
 // 3.1. creating empty mixed type array (Union Types Array)
 let emptyMixedArr: (string | number)[]
-emptyMixedArr.push('only strings allowed', 1)
+//emptyMixedArr.push('only strings allowed', 1)
 
-// 4. creating any type of array
-let anyArray: any[]
+// 4. creating any type of array (DYNAMIC Type)
+let anyArray: any[] = []
 anyArray.push(1, false, 'string')
 
 /** Objects: 
